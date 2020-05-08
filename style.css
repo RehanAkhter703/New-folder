@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+/* <!-- ********************** saction 1 start ***************************** --> */
+
+.main-header {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(65,105,213);
+}
+.div-1 {
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 18px;
+}
+
+/* <!-- ********************** saction 1 end ***************************** --> */
+
+
+/* <!-- ********************** saction 2 start ***************************** --> */
+img {
+    margin: 6px;
+    width: 230px;
+    height: 60px;
+    padding-left: 50px;
+}
+.menu {
+    float: right;
+    width: 700px;
+    margin: 20px;
+    font-size:14px
+    
+}
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 9px;
+}
+.menu li a {
+    margin: 7px;
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+    
+}
+
+/* <!-- ********************** saction 2 end ***************************** --> */
+
+/* <!-- ********************** saction 2 start ***************************** --> */
+
+.img2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+.pg {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(65,105,213);
+    color: white;
+    text-align: center;
+}
+
+/* <!-- ********************** saction 3 end ***************************** --> */
+
+/* <!-- ********************** saction 4 start ***************************** --> */
+.sac-4 {
+    background-color: rgba(192, 189, 189, 0.137);
+}
+
+h2 {
+    margin-top: 20px ;
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto Slab', serif";
+
+}
+.prg-img {
+    margin-left: 500px;
+    width: 230px;
+    height: 60px;
+}
+.intro-col-1 {
+    color: rgb(65,105,213);
+}
+.intro-col-2 {
+    color: rgb(15, 134, 15);
+}
+
+
+.prg  {
+    margin: 0 200px 40px 200px;
+    line-height: 30px;
+    color: gray;
+    visibility: visible;
+    font-size:15px;
+}
+
+/* <!-- ********************** saction 4 end ***************************** --> */
+
+/* <!-- ********************** saction 5 start ***************************** --> */
+
+.sac-5 {
+    width: 100%;
+    margin: 0 auto;
+    height: 40vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+.num{
+    margin: 0 auto ;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 60px;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    /* border: 2px solid black; */
+}
+
+/* <!-- ********************** saction 5 end ***************************** --> */
+
+/* <!-- ********************** saction 6 start ***************************** --> */
+.sac-6 {
+    width: 100%;
+    height: 150vh;
+    background-color: rgba(192, 189, 189, 0.137);
+}
+.icon-img {
+    vertical-align: middle;
+    display: inline;
+    justify-content: space-around;
+    max-width: 100px;
+}
+.icon-box-1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    color: rgb(65,105,213);
+    font-weight: 600;
+}
+.box-1 {
+    border: 2px solid white;
+    width: 350px;
+    height: 100%;
+    background-color:white;
+    box-shadow: rgba(192, 119, 119,);
+    text-align: center ;
+    padding:  50px;
+    margin: 20px;
+}
+.box-2 {
+    border: 2px solid white;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    text-align: center ;
+    padding: 40px;
+    margin: 20px;
+}
+.box-3 {
+    border: 2px solid white;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    text-align: center ;
+    padding: 40px;
+    margin: 20px;
+}
+.icon-box-2 {
+   margin-top: 20px;
+   width: 100%;
+   height: 200;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(65,105,213);
+    font-weight: 600;
+}
+.box-4 {
+    border: 2px solid white;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    text-align: center ;
+    padding: 40px;
+    margin: 20px;
+}
+.box-5 {
+    border: 2px solid white;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    text-align: center ;
+    padding: 40px;
+    margin: 20px;
+}
+.box-6 {
+    border: 2px solid white;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    text-align: center ;
+    padding: 40px;
+    margin: 20px;
+}
+    /* <!-- ********************** saction 6 end ***************************** --> */
+   
+    /* <!-- ********************** saction 7 start ***************************** --> */
+    .sac-7 {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        border: 2px solid white;
+        margin-top: 40px;
+        
+    }
+    h3 {
+        color: blue;
+        margin: 70px 130px; 
+        font-family: 'Merriweather', serif;
+        display: inline;
+        justify-content: space-around;
+    }
+    /* .main-side-bar{
+        display: flex;
+        width: 300px;
+        margin-left: 800px;
+        border: 2px solid black;
+        justify-content: space-around;
+    } */
+    /* .side-bar  {
+        margin-left:0px;
+        line-height: 30px;
+        color: gray;
+        visibility: visible;
+        font-size:15px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: space-between;
+    } */
+    
+    .small-box-img {
+        height: 40px;
+        vertical-align: middle;
+        justify-content: space-around;
+        max-width: 100px;
+    }
+    .main-box-1 {
+        width: 60%;
+        margin-left: 40px;
+        display: flex;
+        justify-content: space-between;
+        height: 15vh;
+        /* border: 2px solid gray; */
+        text-align: left;
+    }
+    .small-box-1 {
+        border: 2px solid  rgba(192, 189, 189, 0.137);
+        width: 400px;
+        margin: 10px;
+        height: 10vh;
+        padding-right:100px;
+        color: rgb(65,105,213);
+        background-color: rgba(192, 189, 189, 0.137);
+        font-weight: 600;
+    }
+    .small-box-2 {
+        border: 2px solid  rgba(192, 189, 189, 0.137);
+        margin:10px ;
+        width: 400px;
+        height: 10vh;
+        color: rgb(65,105,213);
+        font-weight: 600;
+        background-color: rgba(192, 189, 189, 0.137);
+    }
+   
+    /* <!-- ********************** saction 7 end ***************************** --> */
+    
+   /* <!-- ********************** saction 8 start ***************************** --> */
+
+.mainDiv{
+    width: 100%;
+    height: 55vh;
+    /* background-color: coral; */
+    
+}
+.mainDiv .container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.container .top{
+    width: 100%;
+    height: 30%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .top img{
+    width: 20%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .bottom{
+    width: 100%;
+    height: 70%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .bottom div{
+    width: 30%;
+    height: 60%;
+    /* border: 2px solid darkred; */
+}
+.container .bottom div img{
+    width: 98.7%;
+    height: 100%;
+}
+/* <!-- ********************** saction 9 start ***************************** --> */
+.footer-div{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(46, 64, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CONTAINER{
+    width: 36%;
+    height: 85%;
+    margin: 0 auto;
+    border:2px solid darkgoldenrod ;
+    color: rgb(189, 197, 197);
+    font-size: smaller;
+    
+}
+
+.CONTAINER h4{
+    color: white;
+}
+
+
+
+
+/* <!-- ********************** saction 9 end ***************************** --> */
+.copy-right{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(65,100,220);;
+    color: white;
+}
